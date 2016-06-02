@@ -1,0 +1,37 @@
+﻿生成启动时间为 2016/6/2 9:31:54。
+     1>项目“G:\Program\Glasses\HeadPosePnP-master\HeadPosePnP-master\VGTProject.git\trunk\build\SHPE.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“SHPE.dir\Debug\SHPE.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\gl\glut.h" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"SHPE.dir\Debug\\" /Fd"SHPE.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\HeadPose.cpp
+         HeadPose.cpp
+     1>D:\Program Files\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\Program Files\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>..\HeadPose.cpp(294): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>..\HeadPose.cpp(311): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Program\Glasses\HeadPosePnP-master\HeadPosePnP-master\build\Debug\SHPE.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\Program Files\opencv\build\x86\vc10\lib\opencv_world300d.lib" "D:\Program Files\opencv\build\x86\vc10\lib\opencv_world300d.lib" "D:\Program Files\opencv\build\x86\vc10\lib\opencv_world300d.lib" "D:\Program Files\opencv\build\x86\vc10\lib\opencv_ts300d.lib" "D:\Program Files\opencv\build\x86\vc10\lib\opencv_world300d.lib" "D:\Program Files\opencv\build\x86\vc10\lib\opencv_world300d.lib" "D:\Program Files\opencv\build\x86\vc10\lib\opencv_world300d.lib" "D:\Program Files\opencv\build\x86\vc10\lib\opencv_world300d.lib" "D:\Program Files\opencv\build\x86\vc10\lib\opencv_world300d.lib" "D:\Program Files\opencv\build\x86\vc10\lib\opencv_world300d.lib" "D:\Program Files\opencv\build\x86\vc10\lib\opencv_world300d.lib" "D:\Program Files\opencv\build\x86\vc10\lib\opencv_world300d.lib" "D:\Program Files\opencv\build\x86\vc10\lib\opencv_world300d.lib" "D:\Program Files\opencv\build\x86\vc10\lib\opencv_world300d.lib" "D:\Program Files\opencv\build\x86\vc10\lib\opencv_world300d.lib" "D:\Program Files\opencv\build\x86\vc10\lib\opencv_world300d.lib" "D:\Program Files\opencv\build\x86\vc10\lib\opencv_world300d.lib" glu32.lib opengl32.lib "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\glut.lib" "D:\Program Files\opencv\build\x86\vc10\lib\opencv_world300d.lib" "D:\Program Files\opencv\build\x86\vc10\lib\..\staticlib\ippicvmt.lib" /MANIFEST /ManifestFile:"SHPE.dir\Debug\SHPE.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:/Program/Glasses/HeadPosePnP-master/HeadPosePnP-master/build/Debug/SHPE.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/Program/Glasses/HeadPosePnP-master/HeadPosePnP-master/build/Debug/SHPE.lib" /MACHINE:X86 SHPE.dir\Debug\SHPE.exe.embed.manifest.res
+         SHPE.dir\Debug\glm.obj
+         SHPE.dir\Debug\HeadPose.obj
+         SHPE.dir\Debug\OGL_OCV_common.obj
+         SHPE.dir\Debug\stdafx.obj  /machine:X86 
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"SHPE.dir\Debug\SHPE.exe.embed.manifest" /manifest SHPE.dir\Debug\SHPE.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         SHPE.vcxproj -> G:\Program\Glasses\HeadPosePnP-master\HeadPosePnP-master\build\Debug\SHPE.exe
+       FinalizeBuildStatus:
+         正在删除文件“SHPE.dir\Debug\SHPE.unsuccessfulbuild”。
+         正在对“SHPE.dir\Debug\SHPE.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\Program\Glasses\HeadPosePnP-master\HeadPosePnP-master\VGTProject.git\trunk\build\SHPE.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.69

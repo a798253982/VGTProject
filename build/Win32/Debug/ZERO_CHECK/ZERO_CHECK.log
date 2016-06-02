@@ -1,0 +1,23 @@
+﻿生成启动时间为 2016/6/2 9:43:14。
+     1>项目“G:\Program\Glasses\HeadPosePnP-master\HeadPosePnP-master\VGTProject.git\trunk\build\ZERO_CHECK.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Win32\Debug\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Checking Build System
+         CMake is re-running because generate.stamp.list is missing.
+         -- OpenCV ARCH: x86
+         -- OpenCV RUNTIME: vc10
+         -- OpenCV STATIC: OFF
+         -- Found OpenCV 3.0.0 in D:/Program Files/opencv/build/x86/vc10/lib
+         -- You might need to add D:\Program Files\opencv\build\x86\vc10\bin to your PATH to be able to run your applications.
+         -- Configuring done
+         -- Generating done
+         -- Build files have been written to: G:/Program/Glasses/HeadPosePnP-master/HeadPosePnP-master/build
+       FinalizeBuildStatus:
+         正在删除文件“Win32\Debug\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild”。
+         正在对“Win32\Debug\ZERO_CHECK\ZERO_CHECK.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\Program\Glasses\HeadPosePnP-master\HeadPosePnP-master\VGTProject.git\trunk\build\ZERO_CHECK.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.68
